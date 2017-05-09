@@ -1,0 +1,197 @@
+syntax = "proto3";
+package grpc.location;
+
+option csharp_namespace = "grpc.location";
+
+service Location {
+  rpc DoRegist(TerminalInfo) returns (SessionInfo) {}
+  rpc DoHeartBeat(HeartBeat) returns (Response) {}
+  rpc DoSubscribe(Subject) returns (Response) {}
+  rpc DoUnsubscribe(Subject) returns (Response) {}
+  rpc GetScenes(DataRequest) returns (DataResponse) {}
+  rpc GetAnchors(DataRequest) returns (DataResponse) {}
+  rpc GetTags(DataRequest) returns (DataResponse) {}
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// 消息结构
+////////////////////////////////////////////////////////////////////////////////
+message Msg {
+	string terminal_id	 = 1;
+	MsgID msg_id		 = 2;	// 消息ID
+	Data data			 = 3;
+}
+
+// 消息ID
+enum MsgID{
+	MSG_ID_HEARTBEAT				 = 0x00000000;
+	MSG_ID_REGIST_REQUEST			 = 0x00000001;
+	MSG_ID_REGIST_RESPONSE			 = 0x00000002;
+	MSG_ID_SUBSCRIBE_REQUEST		 = 0x00000003;
+	MSG_ID_SUBSCRIBE_RESPONSE		 = 0x00000004;
+	MSG_ID_UNSUBSCRIBE_REQUEST		 = 0x00000005;
+	MSG_ID_UNSUBSCRIBE_RESPONSE		 = 0x00000006;
+	MSG_ID_NOTIFY					 = 0x00000007;
+	MSG_ID_GETDATA_REQUEST			 = 0x00000008;
+	MSG_ID_GETDATA_RESPONSE			 = 0x00000009;
+}
+
+// 消息数据
+message Data{
+	HeartBeat heartbeat					= 1;
+	TerminalInfo terminal_info			= 2;	// 终端信息
+	Subject subject					    = 3;	// 订阅主题
+	SubjectData subject_data			= 4;
+	Response response				    = 5;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// 消息数据定义
+////////////////////////////////////////////////////////////////////////////////
+// 心跳消息
+message HeartBeat {
+	string session_id			 = 1;
+}
+
+// 终端信息
+message TerminalInfo {
+	string terminal_id			 = 1;	// 终端ID
+	
+	// 终端类型
+	enum TerminalType {
+		TERMINAL_TYPE_SERVER	 = 0x00000000; // 服务端
+		TERMINAL_TYPE_WINPC		 = 0x00000001; // winpc客户端
+		TERMINAL_TYPE_WINCE		 = 0x00000002; // wince手持客户端
+	}
+
+	TerminalType terminal_type	 = 2;	// 终端类型
+	string software_version		 = 3;	// 软件版本
+}
+
+// 会话信息
+message SessionInfo {
+	string session_id			 = 1;	// 会话ID
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// 订阅数据类型
+enum DataType {
+	DATA_TYPE_LOCATION			 = 0x00000000; // 定位数据
+	DATA_TYPE_SCENES			 = 0x00000001; // 场景列表
+	DATA_TYPE_ANCHORS			 = 0x00000002; // 基站列表
+	DATA_TYPE_TAGS				 = 0x00000003; // 标签列表
+}
+
+// 订阅主题
+message Subject {
+	string session_id			 = 1;
+	repeated string	tag_sn		 = 2; 
+	DataType data_type			 = 3;  // 订阅数据类型
+	fixed32 port				 = 4;  // 接收订阅的端口
+}
+
+// 测距数据
+message DistanceData {
+	string anchor_sn		 = 1;
+	double distance			 = 2;
+}
+
+// 标签定位数据
+message TagLocation {
+	string tag_sn						 = 1;
+	repeated DistanceData distance_data	 = 2;
+	bool is_location					 = 3;
+	double x							 = 4;
+	double y							 = 5;
+	double z							 = 6;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// 主题消息数据
+message SubjectData {
+	DataType data_type			 = 1;  // 订阅数据类型
+	TagLocation tag_location	 = 2;  // 标签定位数据
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// 应答响应消息
+message Response {
+	fixed32	code				 = 1;
+	string	info				 = 2;
+	string	error				 = 3;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+message SceneIds {
+	repeated string scene_id	 = 1;
+}
+message AnchorIds {
+	repeated string anchor_id	 = 1;
+}
+message TagIds {
+	repeated string tag_id		 = 1;
+}
+
+// 获取数据请求
+message DataRequest {
+	DataType data_type			 = 1;  // 数据类型
+	SceneIds scene_ids			 = 2;
+	SceneIds anchor_ids			 = 3;
+	SceneIds tag_ids			 = 4;
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
+// 场景数据
+message Scene {
+	int32 id				 = 1;
+	string name				 = 2;
+	double original_x		 = 3;
+	double original_y		 = 4;
+	double map_offset_x		 = 5;
+	double map_offset_y		 = 6;
+	double map_scale_h		 = 7;
+	double map_scale_v		 = 8;
+	bool map_flip_h			 = 9;
+	bool map_flip_v			 = 10;
+	bytes map_image			 = 11;
+}
+
+// 场景数据列表
+message Scenes {
+	repeated Scene scene	 = 1;
+}
+
+// 基站数据
+message Anchor {
+	int32 id				 = 1;
+	string sn				 = 2;
+    int32 scene_id			 = 3;
+    double x 				 = 4;
+    double y				 = 5;
+    double z 				 = 6;
+}
+
+// 基站数据列表
+message Anchors {
+	repeated Anchor anchor	 = 1;
+}
+
+// 标签数据
+message Tag {
+	int32 id				 = 1;
+	string sn				 = 2;
+}
+
+// 标签数据列表
+message Tags {
+	repeated Tag tag		 = 1;
+}
+
+message DataResponse {
+	DataType data_type		 = 1;  // 数据类型
+	Scenes scenes			 = 2;  // 场景信息
+	Anchors anchors			 = 3;  // 基站信息
+	Tags tags				 = 4;  // 标签信息
+}

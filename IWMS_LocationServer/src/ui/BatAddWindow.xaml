@@ -1,0 +1,25 @@
+﻿<Window x:Class="IWMS_LocationServer.src.ui.BatAddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IWMS_LocationServer.src.ui"
+        mc:Ignorable="d"
+        Title="BatAddWindow" Height="400" Width="400" WindowStartupLocation="CenterOwner" WindowStyle="ToolWindow" Closing="Window_Closing">
+    <DockPanel Margin="10">
+        <StackPanel  DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <Button x:Name="addButton" Content="添加" Padding="20, 5" Width="100" Margin="0 10 30 0" Click="Button_Click"/>
+            <Button x:Name="returnButton" Content="返回" Padding="20, 5" Width="100" Margin="30 10 0 0" Click="Button_Click"/>
+        </StackPanel>
+        <ListView Name="snListView">
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn Header="SN" Width="160" DisplayMemberBinding="{Binding Sn}" />
+                        <GridViewColumn Header="结果" Width="160" DisplayMemberBinding="{Binding AddResult}" />
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </DockPanel>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Application x:Class="IWMS_LocationServer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:IWMS_LocationServer"
+             StartupUri="/src/ui/MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="{x:Type TextElement }">
+            <Setter Property="FontFamily" Value="Arial,SimSun"/>
+            <Setter Property="FontSize" Value="13"/>
+        </Style>
+        <Style TargetType="{x:Type TextBlock }">
+            <Setter Property="FontFamily" Value="Arial,SimSun"/>
+            <Setter Property="FontSize" Value="13"/>
+        </Style>
+    </Application.Resources>
+</Application>

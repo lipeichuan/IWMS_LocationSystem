@@ -1,0 +1,9 @@
+﻿<Application x:Class="IWMS_LocationClient.src.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:IWMS_LocationClient"
+             StartupUri="/src/ui/MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
