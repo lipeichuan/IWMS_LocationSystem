@@ -1,0 +1,5 @@
+2017-05-09 11:08:00.3010|INFO|IWMS_LocationServer.src.bll.SerialPortDevice|Open SerialPort! COM3, 115200
+2017-05-09 11:08:03.8692|INFO|IWMS_LocationSystem.src.dal.SQLiteHelper|[SQL]: SELECT * FROM anchor
+2017-05-09 11:08:03.9082|INFO|IWMS_LocationSystem.src.dal.SQLiteHelper|[RET]: 2
+2017-05-09 11:08:03.9082|INFO|IWMS_LocationSystem.src.dal.SQLiteHelper|[SQL]: SELECT * FROM tag;
+2017-05-09 11:08:03.9082|INFO|IWMS_LocationSystem.src.dal.SQLiteHelper|[RET]: 0

@@ -1,0 +1,152 @@
+2017-05-09 10:49:59.7142|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 10:49:59.8912|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Regist response { "sessionId": "CC131387717998702346" }
+2017-05-09 10:49:59.9042|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetScenes { "dataType": "DATA_TYPE_SCENES" }
+2017-05-09 10:50:00.1572|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetScenes response
+2017-05-09 10:50:00.1712|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetAnchors { "dataType": "DATA_TYPE_ANCHORS" }
+2017-05-09 10:50:00.1862|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetAnchors response
+2017-05-09 10:50:00.1862|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetTags { "dataType": "DATA_TYPE_TAGS" }
+2017-05-09 10:50:00.1982|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetTags response
+2017-05-09 10:50:00.1982|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Subscribe { "sessionId": "CC131387717998702346", "port": 13001 }
+2017-05-09 10:50:00.2222|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Subscribe response { }
+2017-05-09 10:59:13.3298|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Endpoint read failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 163
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 159
+   在 IWMS_LocationClient.src.bll.LocationClient.Heartbeat() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 64
+2017-05-09 10:59:13.3298|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Endpoint read failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 163
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 159
+   在 IWMS_LocationClient.src.bll.LocationClient.Heartbeat() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 64
+2017-05-09 10:59:13.3458|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Endpoint read failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 163
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 159
+   在 IWMS_LocationClient.src.bll.LocationClient.Heartbeat() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 64
+2017-05-09 10:59:13.3458|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Endpoint read failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 163
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 159
+   在 IWMS_LocationClient.src.bll.LocationClient.Heartbeat() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 64
+2017-05-09 10:59:13.3908|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Endpoint read failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 163
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 159
+   在 IWMS_LocationClient.src.bll.LocationClient.Heartbeat() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 64
+2017-05-09 10:59:13.3908|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Endpoint read failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 163
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 159
+   在 IWMS_LocationClient.src.bll.LocationClient.Heartbeat() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 64
+2017-05-09 10:59:13.3908|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Endpoint read failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 163
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 159
+   在 IWMS_LocationClient.src.bll.LocationClient.Heartbeat() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 64
+2017-05-09 10:59:13.3908|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Endpoint read failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 163
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 159
+   在 IWMS_LocationClient.src.bll.LocationClient.Heartbeat() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 64
+2017-05-09 10:59:13.3908|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 10:59:13.3908|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Endpoint read failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 163
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 159
+   在 IWMS_LocationClient.src.bll.LocationClient.Heartbeat() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 64
+2017-05-09 10:59:13.4088|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Endpoint read failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 163
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 159
+   在 IWMS_LocationClient.src.bll.LocationClient.Heartbeat() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 64
+2017-05-09 10:59:13.4088|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 10:59:13.4088|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Endpoint read failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 163
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 159
+   在 IWMS_LocationClient.src.bll.LocationClient.Heartbeat() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 64
+2017-05-09 10:59:13.4088|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 10:59:13.4218|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 10:59:13.4428|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 10:59:13.4428|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 10:59:13.4428|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 10:59:13.4578|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 10:59:13.4578|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 10:59:13.4578|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 10:59:13.4708|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 10:59:15.2980|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 10:59:16.3310|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Connect Failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 147
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 143
+   在 IWMS_LocationClient.src.bll.LocationClient.Regist() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 36
+2017-05-09 10:59:17.3361|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 10:59:42.0775|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Regist response { "sessionId": "CC131387723820625341" }
+2017-05-09 10:59:42.0805|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetScenes { "dataType": "DATA_TYPE_SCENES" }
+2017-05-09 10:59:42.2715|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetScenes response
+2017-05-09 10:59:42.2715|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetAnchors { "dataType": "DATA_TYPE_ANCHORS" }
+2017-05-09 10:59:42.2865|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetAnchors response
+2017-05-09 10:59:42.2865|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetTags { "dataType": "DATA_TYPE_TAGS" }
+2017-05-09 10:59:42.2975|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetTags response
+2017-05-09 10:59:42.2975|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Subscribe { "sessionId": "CC131387723820625341", "port": 13001 }
+2017-05-09 10:59:42.2975|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Subscribe response { }

@@ -1,0 +1,233 @@
+2017-05-09 15:44:29.2748|INFO|IWMS_LocationServer.src.bll.SerialPortDevice|Open SerialPort! COM3, 115200
+2017-05-09 15:44:30.0709|INFO|IWMS_LocationSystem.src.dal.SQLiteHelper|[SQL]: SELECT * FROM scene;
+2017-05-09 15:44:30.1209|INFO|IWMS_LocationSystem.src.dal.SQLiteHelper|[RET]: 2
+2017-05-09 15:44:30.3119|INFO|IWMS_LocationSystem.src.dal.SQLiteHelper|[SQL]: SELECT * FROM anchor
+2017-05-09 15:44:30.3119|INFO|IWMS_LocationSystem.src.dal.SQLiteHelper|[RET]: 3
+2017-05-09 15:44:30.3279|INFO|IWMS_LocationSystem.src.dal.SQLiteHelper|[SQL]: SELECT * FROM tag;
+2017-05-09 15:44:30.3279|INFO|IWMS_LocationSystem.src.dal.SQLiteHelper|[RET]: 3
+2017-05-09 15:44:34.9872|INFO|IWMS_LocationServer.src.bll.Session|timeout!
+2017-05-09 15:44:36.6483|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:44:36.6483|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:44:36.6483|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:44:36.6483|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:44:36.6483|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:44:36.6483|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:44:36.6483|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:44:46.6048|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:44:46.6048|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:44:46.6048|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:44:46.6048|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:44:46.6048|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:44:46.6048|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:44:46.6088|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:44:46.7468|INFO|IWMS_LocationServer.src.bll.Session|===>: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 15:44:56.6144|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:44:56.6144|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:44:56.6144|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:44:56.6144|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:44:56.6144|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:44:56.6144|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:44:56.6144|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:44:56.6304|INFO|IWMS_LocationServer.src.bll.Session|===>: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 15:45:06.6040|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:45:06.6040|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:45:06.6040|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:06.6040|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:45:06.6040|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:06.6040|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:45:06.6040|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:06.6080|INFO|IWMS_LocationServer.src.bll.Session|===>: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 15:45:11.0072|INFO|IWMS_LocationServer.src.bll.Session|timeout!
+2017-05-09 15:45:16.6046|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:45:16.6046|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:45:16.6046|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:16.6046|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:45:16.6046|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:16.6086|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:45:16.6086|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:26.6171|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:45:26.6171|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:45:26.6171|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:26.6171|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:45:26.6171|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:26.6231|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:45:26.6231|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:36.6057|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:45:36.6077|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:45:36.6077|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:36.6077|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:45:36.6077|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:36.6077|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:45:36.6077|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:46.6073|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:45:46.6073|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:45:46.6073|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:46.6073|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:45:46.6073|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:46.6073|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:45:46.6073|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:56.6048|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:45:56.6048|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:45:56.6068|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:56.6068|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:45:56.6068|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:45:56.6068|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:45:56.6068|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:06.6054|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:46:06.6144|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:46:06.6144|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:06.6254|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:46:06.6254|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:06.6254|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:46:06.6254|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:16.6050|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:46:16.6060|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:46:16.6060|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:16.6060|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:46:16.6060|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:16.6060|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:46:16.6060|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:26.6046|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:46:26.6106|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:46:26.6106|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:26.6106|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:46:26.6106|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:26.6106|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:46:26.6106|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:36.6111|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:46:36.6111|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:46:36.6111|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:36.6111|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:46:36.6111|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:36.6111|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:46:36.6111|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:46.6037|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:46:46.6047|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:46:46.6047|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:46.6047|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:46:46.6047|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:46.6047|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:46:46.6047|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:56.6043|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:46:56.6043|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:46:56.6043|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:56.6043|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:46:56.6043|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:46:56.6043|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:46:56.6043|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:47:06.6058|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:47:06.6058|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:47:06.6058|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:47:06.6058|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:47:06.6058|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:47:06.6058|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:47:06.6058|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:47:16.6144|INFO|IWMS_LocationServer.src.bll.LocationInfoParser|T:1001,S:3700,A:ANCHOR0001,D:1.00000,A:ANCHOR0002,D:1.00000,A:ANCHOR0003,D:1.00000
+2017-05-09 15:47:16.6144|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0001
+
+2017-05-09 15:47:16.6144|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:47:16.6224|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0002
+
+2017-05-09 15:47:16.6224|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+
+2017-05-09 15:47:16.6224|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|########### mac_address ANCHOR0003
+
+2017-05-09 15:47:16.6224|DEBUG|IWMS_LocationServer.src.bll.LocationInfoParser|@@@@@@@@@@@ SceneId 1
+

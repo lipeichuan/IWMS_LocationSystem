@@ -1,0 +1,21 @@
+2017-05-09 15:39:47.0247|DEBUG|IWMS_LocationClient.src.bll.UdpClient|UdpClient thread running...
+2017-05-09 15:39:47.1077|DEBUG|IWMS_LocationClient.src.bll.UdpClient|VideoServer Udp Server started!
+2017-05-09 15:39:47.1077|DEBUG|IWMS_LocationClient.src.bll.UdpClient|begin receive...
+2017-05-09 15:39:47.1077|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 15:39:47.1927|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Regist response { "sessionId": "CC131387891871737606" }
+2017-05-09 15:39:47.2017|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetScenes { "dataType": "DATA_TYPE_SCENES" }
+2017-05-09 15:39:47.3187|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetScenes response
+2017-05-09 15:39:47.3407|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetAnchors { "dataType": "DATA_TYPE_ANCHORS" }
+2017-05-09 15:39:47.3407|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetAnchors response
+2017-05-09 15:39:47.3407|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetTags { "dataType": "DATA_TYPE_TAGS" }
+2017-05-09 15:39:47.3627|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetTags response
+2017-05-09 15:39:50.7659|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Subscribe { "sessionId": "CC131387891871737606", "port": 50053 }
+2017-05-09 15:39:50.7799|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Subscribe response { }
+2017-05-09 15:39:56.7923|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 15:40:06.6058|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 15:40:16.5864|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 15:40:26.5890|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 15:40:36.5985|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 15:40:46.5991|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 15:40:56.5957|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 15:41:09.5674|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }

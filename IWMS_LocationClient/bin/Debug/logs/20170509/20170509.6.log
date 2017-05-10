@@ -1,0 +1,58 @@
+2017-05-09 11:15:19.1498|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 11:15:19.2618|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Regist response { "sessionId": "CC131387733192588171" }
+2017-05-09 11:15:19.2708|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetScenes { "dataType": "DATA_TYPE_SCENES" }
+2017-05-09 11:15:19.3048|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetScenes response
+2017-05-09 11:15:19.3188|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetAnchors { "dataType": "DATA_TYPE_ANCHORS" }
+2017-05-09 11:15:19.3188|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetAnchors response
+2017-05-09 11:15:19.3258|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetTags { "dataType": "DATA_TYPE_TAGS" }
+2017-05-09 11:15:19.3258|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetTags response
+2017-05-09 11:15:19.3408|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Subscribe { "sessionId": "CC131387733192588171", "port": 13001 }
+2017-05-09 11:15:19.3408|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Subscribe response { }
+2017-05-09 11:16:15.4000|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4000|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4000|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4070|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4070|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4070|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4070|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4070|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4070|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4070|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4000|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4000|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4070|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4070|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4070|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4070|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4070|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4000|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4540|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.4540|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.4520|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.4070|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:16:15.4540|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.4230|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.4070|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.4540|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.4540|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.4720|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.4520|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.4720|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.4920|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.4920|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.4920|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.5020|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.5020|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.5020|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.5020|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:15.5210|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:16:17.3531|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 11:16:17.3591|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Regist response { "sessionId": "CC131387733773581401" }
+2017-05-09 11:16:17.3591|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetScenes { "dataType": "DATA_TYPE_SCENES" }
+2017-05-09 11:16:17.4011|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetScenes response
+2017-05-09 11:16:17.4101|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetAnchors { "dataType": "DATA_TYPE_ANCHORS" }
+2017-05-09 11:16:17.4101|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetAnchors response
+2017-05-09 11:16:17.4101|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetTags { "dataType": "DATA_TYPE_TAGS" }
+2017-05-09 11:16:17.4101|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetTags response
+2017-05-09 11:16:17.4241|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Subscribe { "sessionId": "CC131387733773581401", "port": 13001 }
+2017-05-09 11:16:17.4241|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Subscribe response { }

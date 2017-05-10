@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -38,53 +39,8 @@ namespace IWMS_LocationClient.src.ui
         {
             Session session = new Session(mapView);
             session.Start();
+            UdpClient.Instance.Start();
         }
 
-
-
-        //private void regist()
-        //{
-        //    _client.Regist();
-        //}
-
-        //private void heartbeat()
-        //{
-        //    _client.Heartbeat();
-        //}
-
-        //private void subscribe()
-        //{
-        //    _client.Subscribe();
-        //}
-
-        //private void unsubscribe()
-        //{
-        //    _client.Unsubscribe();
-        //}
-
-        //private void Button_Click(object sender, RoutedEventArgs e)
-        //{
-        //    Button button = sender as Button;
-        //    if (button != null)
-        //    {
-        //        if (button.Name.CompareTo("registButton") == 0)
-        //        {
-        //            regist();
-        //        }
-        //        else if (button.Name.CompareTo("heartBeatButton") == 0)
-        //        {
-        //            heartbeat();
-        //        }
-        //        else if (button.Name.CompareTo("subscribeButton") == 0)
-        //        {
-        //            subscribe();
-        //        }
-        //        else if (button.Name.CompareTo("unsubscribeButton") == 0)
-        //        {
-        //            unsubscribe();
-        //        }
-
-        //    }
-        //}
     }
 }

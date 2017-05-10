@@ -134,6 +134,11 @@ namespace IWMS_LocationServer.src.bll
 
             _tril.GetLocation(temp, use4thAnchor, anchor_location, distance);
             tag_location[tag_index, 0] = temp[0];
+
+            tagLocation.IsLocation = true;
+            tagLocation.X = temp[0].x;
+            tagLocation.Y = temp[0].y;
+            tagLocation.Z = temp[0].z;
             //Point position = new Point(tag_location[0].x, tag_location[0].y);
             {
                 //初始化数据采集

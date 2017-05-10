@@ -1,0 +1,12 @@
+2017-05-09 13:31:56.7728|DEBUG|IWMS_LocationClient.src.bll.UdpClient|UdpClient thread running...
+2017-05-09 13:32:06.0123|DEBUG|IWMS_LocationClient.src.bll.UdpClient|VideoServer Udp Server started!
+2017-05-09 13:32:06.0223|DEBUG|IWMS_LocationClient.src.bll.UdpClient|begin receive...
+2017-05-09 13:32:06.0373|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 13:32:06.1423|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Regist response { "sessionId": "CC131387815261253402" }
+2017-05-09 13:32:06.1423|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetScenes { "dataType": "DATA_TYPE_SCENES" }
+2017-05-09 13:32:06.2703|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetScenes response
+2017-05-09 13:32:06.3123|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetAnchors { "dataType": "DATA_TYPE_ANCHORS" }
+2017-05-09 13:32:06.3123|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetAnchors response
+2017-05-09 13:32:06.3123|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetTags { "dataType": "DATA_TYPE_TAGS" }
+2017-05-09 13:32:06.3333|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetTags response
+2017-05-09 13:32:06.3453|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Subscribe { "sessionId": "CC131387815261253402", "port": 13001 }

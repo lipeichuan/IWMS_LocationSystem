@@ -88,7 +88,7 @@ namespace RtlsLibrary.Properties {
         }
         
         /// <summary>
-        ///   查找类似 #66FFFFFF 的本地化字符串。
+        ///   查找类似 #DDFFFFFF 的本地化字符串。
         /// </summary>
         public static string IDC_TEXT_B {
             get {

@@ -1,0 +1,107 @@
+2017-05-09 16:27:44.2650|DEBUG|IWMS_LocationClient.src.bll.UdpClient|UdpClient thread running...
+2017-05-09 16:27:44.3740|DEBUG|IWMS_LocationClient.src.bll.UdpClient|VideoServer Udp Server started!
+2017-05-09 16:27:44.3740|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 16:27:44.3740|DEBUG|IWMS_LocationClient.src.bll.UdpClient|begin receive...
+2017-05-09 16:27:44.4870|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Regist response { "sessionId": "CC131387920644610292" }
+2017-05-09 16:27:44.4940|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetScenes { "dataType": "DATA_TYPE_SCENES" }
+2017-05-09 16:27:44.7490|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetScenes response
+2017-05-09 16:27:44.7710|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetAnchors { "dataType": "DATA_TYPE_ANCHORS" }
+2017-05-09 16:27:44.7860|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetAnchors response
+2017-05-09 16:27:44.7900|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetTags { "dataType": "DATA_TYPE_TAGS" }
+2017-05-09 16:27:44.7900|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetTags response
+2017-05-09 16:27:44.8200|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Subscribe { "sessionId": "CC131387920644610292", "port": 50053 }
+2017-05-09 16:27:44.8200|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Subscribe response { }
+2017-05-09 16:28:08.0913|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 16:28:08.0913|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 16:28:08.0913|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 16:28:08.0913|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 16:28:08.0913|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 16:28:08.0913|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 16:28:08.0913|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 16:28:08.0913|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 16:28:08.0973|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 16:28:08.0973|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 16:28:08.0973|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 16:28:08.1203|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 16:28:08.1203|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:28:08.1303|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:28:08.1303|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:28:08.1553|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:28:08.1633|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:28:08.1633|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:28:08.1633|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:28:08.1773|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:28:08.1773|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:28:08.1773|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:28:08.1973|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:28:08.2213|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:28:09.8364|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 16:28:19.1490|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Regist response { "sessionId": "CC131387920991350124" }
+2017-05-09 16:28:19.1550|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetScenes { "dataType": "DATA_TYPE_SCENES" }
+2017-05-09 16:28:20.5560|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetScenes response
+2017-05-09 16:28:20.5650|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetAnchors { "dataType": "DATA_TYPE_ANCHORS" }
+2017-05-09 16:28:20.5650|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetAnchors response
+2017-05-09 16:28:20.5650|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetTags { "dataType": "DATA_TYPE_TAGS" }
+2017-05-09 16:28:20.5650|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetTags response
+2017-05-09 16:28:20.5840|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Subscribe { "sessionId": "CC131387920991350124", "port": 50053 }
+2017-05-09 16:28:20.5840|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Subscribe response { }
+2017-05-09 16:28:46.8285|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0004", "distance": 1 } ] } } } }
+2017-05-09 16:28:58.4002|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 16:28:58.4002|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 16:28:58.4062|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:28:58.4062|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:29:00.3983|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 16:29:00.3983|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Regist response { "sessionId": "CC131387921404013727" }
+2017-05-09 16:29:00.4053|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetScenes { "dataType": "DATA_TYPE_SCENES" }
+2017-05-09 16:29:00.4343|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetScenes response
+2017-05-09 16:29:00.4343|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetAnchors { "dataType": "DATA_TYPE_ANCHORS" }
+2017-05-09 16:29:00.4343|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetAnchors response
+2017-05-09 16:29:00.4483|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetTags { "dataType": "DATA_TYPE_TAGS" }
+2017-05-09 16:29:00.4483|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetTags response
+2017-05-09 16:29:00.4483|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Subscribe { "sessionId": "CC131387921404013727", "port": 50053 }
+2017-05-09 16:29:00.4483|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Subscribe response { }
+2017-05-09 16:30:34.5007|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0004", "distance": 1 } ] } } } }
+2017-05-09 16:30:44.4913|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0004", "distance": 1 } ] } } } }
+2017-05-09 16:30:54.4908|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0004", "distance": 1 } ] } } } }
+2017-05-09 16:31:04.4894|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0004", "distance": 1 } ] } } } }
+2017-05-09 16:31:14.4920|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0004", "distance": 1 } ] } } } }
+2017-05-09 16:31:24.4946|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0004", "distance": 1 } ] } } } }
+2017-05-09 16:31:34.4911|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0004", "distance": 1 } ] } } } }
+2017-05-09 16:31:44.4917|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0004", "distance": 1 } ] } } } }
+2017-05-09 16:31:54.5023|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0004", "distance": 1 } ] } } } }
+2017-05-09 16:32:04.5009|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0004", "distance": 1 } ] } } } }
+2017-05-09 16:32:14.4884|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "1001", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0004", "distance": 1 } ] } } } }
+2017-05-09 16:32:25.2550|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Connect Failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 163
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 159
+   在 IWMS_LocationClient.src.bll.LocationClient.Heartbeat() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 64
+2017-05-09 16:32:25.2750|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:32:26.4771|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 16:32:45.2592|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Connect Failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 163
+   在 grpc.location.Location.LocationClient.DoHeartBeat(HeartBeat request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 159
+   在 IWMS_LocationClient.src.bll.LocationClient.Heartbeat() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 64
+2017-05-09 16:32:45.2652|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Connect Failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 147
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 143
+   在 IWMS_LocationClient.src.bll.LocationClient.Regist() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 36
+2017-05-09 16:32:45.2812|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 16:32:46.2902|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }

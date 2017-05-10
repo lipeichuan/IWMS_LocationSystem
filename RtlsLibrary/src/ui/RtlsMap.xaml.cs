@@ -186,6 +186,7 @@ namespace RtlsLibrary.src.ui
             double scale = e.Delta * 0.001;
             scaleMap(e.GetPosition(this), scale);
             reloadAnchors();
+            reloadTags();
         }
 
         private void MapControl_MouseMove(object sender, MouseEventArgs e)
@@ -199,10 +200,11 @@ namespace RtlsLibrary.src.ui
 
                 _startPoint = p;
                 reloadAnchors();
+                reloadTags();
                 grid.Refresh();
             }
         }
-        
+
 
         private void MapControl_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
@@ -260,7 +262,7 @@ namespace RtlsLibrary.src.ui
                     marker.Visibility = tag.IsPositioned ? Visibility.Visible : Visibility.Collapsed;
                     marker.SetValue(Canvas.LeftProperty, MeterToPixel(_scene.OriginalPoint.X + tag.X) - marker.OffsetX);
                     marker.SetValue(Canvas.TopProperty, MeterToPixel(_scene.OriginalPoint.Y + tag.Y) - marker.OffsetY);
-                    anchorLayer.Children.Add(marker);
+                    tagLayer.Children.Add(marker);
                 }
             }
         }
@@ -270,16 +272,40 @@ namespace RtlsLibrary.src.ui
             reloadMapImage();
             grid.Refresh();
             reloadAnchors();
+            reloadTags();
         }
 
+        public void Refresh()
+        {
+            reload();
+        }
+
+        private void reloadTags()
+        {
+            for (int i = 0; i < tagLayer.Children.Count; i++)
+            {
+                TagMarker tagMarker = tagLayer.Children[i] as TagMarker;
+                if (tagMarker != null)
+                {
+                    tagMarker.Visibility = tagMarker.TagModel.IsPositioned ? Visibility.Visible : Visibility.Collapsed;
+                    Point point = mapTransGroup.Transform(new Point(MeterToPixel(_scene.OriginalPoint.X + tagMarker.TagModel.X), MeterToPixel(_scene.OriginalPoint.Y + tagMarker.TagModel.Y)));
+                    tagMarker.SetValue(Canvas.LeftProperty, point.X - tagMarker.OffsetX);
+                    tagMarker.SetValue(Canvas.TopProperty, point.Y - tagMarker.OffsetY);
+                }
+            }
+        }
         private void reloadAnchors()
         {
-            foreach (AnchorMarker anchorMarker in anchorLayer.Children)
+            for (int i = 0; i < anchorLayer.Children.Count; i++)
             {
-                anchorMarker.Visibility = anchorMarker.Anchor.SceneId == _scene.Id ? Visibility.Visible : Visibility.Collapsed;
-                Point point = mapTransGroup.Transform(new Point(MeterToPixel(_scene.OriginalPoint.X + anchorMarker.Anchor.X), MeterToPixel(_scene.OriginalPoint.Y + anchorMarker.Anchor.Y)));
-                anchorMarker.SetValue(Canvas.LeftProperty, point.X - anchorMarker.OffsetX);
-                anchorMarker.SetValue(Canvas.TopProperty, point.Y - anchorMarker.OffsetY);
+                AnchorMarker anchorMarker = anchorLayer.Children[i] as AnchorMarker;
+                if (anchorMarker != null)
+                {
+                    anchorMarker.Visibility = anchorMarker.AnchorModel.SceneId == _scene.Id ? Visibility.Visible : Visibility.Collapsed;
+                    Point point = mapTransGroup.Transform(new Point(MeterToPixel(_scene.OriginalPoint.X + anchorMarker.AnchorModel.X), MeterToPixel(_scene.OriginalPoint.Y + anchorMarker.AnchorModel.Y)));
+                    anchorMarker.SetValue(Canvas.LeftProperty, point.X - anchorMarker.OffsetX);
+                    anchorMarker.SetValue(Canvas.TopProperty, point.Y - anchorMarker.OffsetY);
+                }
             }
         }
 

@@ -87,7 +87,7 @@ message Subject {
 	string session_id			 = 1;
 	repeated string	tag_sn		 = 2; 
 	DataType data_type			 = 3;  // 订阅数据类型
-	fixed32 port				 = 4;  // 接收订阅的端口
+	int32 port					 = 4;  // 接收订阅的端口
 }
 
 // 测距数据

@@ -47,7 +47,7 @@ namespace RtlsLibrary.src.ui
             baseEllipse.Fill = Brushes.Cyan;
 
         }
-        public AnchorModel Anchor { get { return _anchorModel; } }
+        public AnchorModel AnchorModel { get { return _anchorModel; } }
         public int OffsetX { get { return (int)baseEllipse.Width / 2; } }
         public int OffsetY { get { return (int)baseEllipse.Height / 2; } }
         public bool IsSelected { get { return _isSelected; } }

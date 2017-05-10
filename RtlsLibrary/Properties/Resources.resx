@@ -127,7 +127,7 @@
     <value>#FFFF00FF</value>
   </data>
   <data name="IDC_TEXT_B" xml:space="preserve">
-    <value>#66FFFFFF</value>
+    <value>#DDFFFFFF</value>
   </data>
   <data name="IDC_TEXT_B_SELECTED" xml:space="preserve">
     <value>#FFFFFFFF</value>

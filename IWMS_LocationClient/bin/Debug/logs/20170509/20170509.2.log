@@ -1,0 +1,10 @@
+2017-05-09 10:20:31.2290|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 10:20:31.4440|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Regist response { "sessionId": "CC131387700314230852" }
+2017-05-09 10:20:31.4690|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetScenes { "dataType": "DATA_TYPE_SCENES" }
+2017-05-09 10:20:31.9651|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetScenes response
+2017-05-09 10:20:31.9801|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetAnchors { "dataType": "DATA_TYPE_ANCHORS" }
+2017-05-09 10:20:31.9941|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetAnchors response
+2017-05-09 10:20:31.9941|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetTags { "dataType": "DATA_TYPE_TAGS" }
+2017-05-09 10:20:32.0071|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetTags response
+2017-05-09 10:20:32.0181|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Subscribe { "sessionId": "CC131387700314230852", "port": 13001 }
+2017-05-09 10:20:32.0361|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Subscribe response { }

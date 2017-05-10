@@ -1,0 +1,138 @@
+2017-05-09 11:11:10.9326|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 11:11:11.1196|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Regist response { "sessionId": "CC131387730710996232" }
+2017-05-09 11:11:11.1296|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetScenes { "dataType": "DATA_TYPE_SCENES" }
+2017-05-09 11:11:11.2276|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetScenes response
+2017-05-09 11:11:11.2426|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetAnchors { "dataType": "DATA_TYPE_ANCHORS" }
+2017-05-09 11:11:11.2426|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetAnchors response
+2017-05-09 11:11:11.2536|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetTags { "dataType": "DATA_TYPE_TAGS" }
+2017-05-09 11:11:11.2536|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetTags response
+2017-05-09 11:11:11.2716|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Subscribe { "sessionId": "CC131387730710996232", "port": 13001 }
+2017-05-09 11:11:11.2906|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Subscribe response { }
+2017-05-09 11:11:53.4850|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.4850|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.4850|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.4850|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.4850|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.4850|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.4850|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.4990|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.4990|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.4990|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.4990|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.4990|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:53.4990|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.5130|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.5130|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.5130|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:11:53.5130|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:53.5130|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:53.5320|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:53.5320|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:53.5320|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:53.5480|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:53.5700|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:53.5700|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:53.5700|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:53.5810|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:53.5810|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:53.5810|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:53.5910|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:53.5910|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:11:55.2971|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 11:12:32.1522|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Endpoint read failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 147
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 143
+   在 IWMS_LocationClient.src.bll.LocationClient.Regist() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 36
+2017-05-09 11:12:33.1673|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 11:12:34.2003|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Connect Failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 147
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 143
+   在 IWMS_LocationClient.src.bll.LocationClient.Regist() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 36
+2017-05-09 11:12:35.2174|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 11:12:54.2005|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Connect Failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 147
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 143
+   在 IWMS_LocationClient.src.bll.LocationClient.Regist() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 36
+2017-05-09 11:12:55.2205|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 11:13:14.1996|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Connect Failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 147
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 143
+   在 IWMS_LocationClient.src.bll.LocationClient.Regist() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 36
+2017-05-09 11:13:15.2167|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 11:13:33.2847|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Regist response { "sessionId": "CC131387732132597543" }
+2017-05-09 11:13:33.2847|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetScenes { "dataType": "DATA_TYPE_SCENES" }
+2017-05-09 11:13:33.5507|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetScenes response
+2017-05-09 11:13:33.5577|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetAnchors { "dataType": "DATA_TYPE_ANCHORS" }
+2017-05-09 11:13:33.5727|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetAnchors response
+2017-05-09 11:13:33.5727|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetTags { "dataType": "DATA_TYPE_TAGS" }
+2017-05-09 11:13:33.5727|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetTags response
+2017-05-09 11:13:33.5907|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Subscribe { "sessionId": "CC131387732132597543", "port": 13001 }
+2017-05-09 11:13:33.5907|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Subscribe response { }
+2017-05-09 11:13:58.4491|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:13:58.4491|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:13:58.4491|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:13:58.4491|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:13:58.4491|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:13:58.4491|ERROR|IWMS_LocationClient.src.bll.LocationClient|Heartbeat fail!
+2017-05-09 11:13:58.4711|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:13:58.4711|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:13:58.4711|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:13:58.4961|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:13:58.4961|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:13:58.5131|WARN|IWMS_LocationClient.src.bll.Session|Heartbeat fail! Disconnected!
+2017-05-09 11:13:59.6032|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 11:14:13.3670|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Endpoint read failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 147
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 143
+   在 IWMS_LocationClient.src.bll.LocationClient.Regist() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 36
+2017-05-09 11:14:14.3801|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 11:14:15.4061|ERROR|IWMS_LocationClient.src.bll.LocationClient|Grpc.Core.RpcException: Status(StatusCode=Unavailable, Detail="Connect Failed")
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Grpc.Core.Internal.AsyncCall`2.UnaryCall(TRequest msg)
+   在 Grpc.Core.Calls.BlockingUnaryCall[TRequest,TResponse](CallInvocationDetails`2 call, TRequest req)
+   在 Grpc.Core.DefaultCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 Grpc.Core.Internal.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, CallOptions options) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 147
+   在 grpc.location.Location.LocationClient.DoRegist(TerminalInfo request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) 位置 D:\git\IWMS_LocationSystem\IWMS_LocationCommon\grpc\ProtocolGrpc.cs:行号 143
+   在 IWMS_LocationClient.src.bll.LocationClient.Regist() 位置 D:\git\IWMS_LocationSystem\IWMS_LocationClient\src\bll\LocationClient.cs:行号 36
+2017-05-09 11:14:16.4252|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 11:14:34.4632|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Regist response { "sessionId": "CC131387732744502542" }
+2017-05-09 11:14:34.4632|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetScenes { "dataType": "DATA_TYPE_SCENES" }
+2017-05-09 11:14:34.5722|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetScenes response
+2017-05-09 11:14:34.5722|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetAnchors { "dataType": "DATA_TYPE_ANCHORS" }
+2017-05-09 11:14:34.5882|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetAnchors response
+2017-05-09 11:14:34.5882|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetTags { "dataType": "DATA_TYPE_TAGS" }
+2017-05-09 11:14:34.5992|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetTags response
+2017-05-09 11:14:34.5992|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Subscribe { "sessionId": "CC131387732744502542", "port": 13001 }
+2017-05-09 11:14:34.5992|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Subscribe response { }

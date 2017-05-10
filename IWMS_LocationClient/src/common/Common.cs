@@ -13,6 +13,9 @@ namespace IWMS_LocationClient.src.common
         private List<AnchorModel> _anchors = null;
         private List<TagModel> _tags = null;
         public List<SceneModel> Scenes { get { return _scenes; } }
+
+        private SceneModel _currentScene = null;
+        public SceneModel CurrentScene { get { return _currentScene; } }
         public List<AnchorModel> Anchors { get { return _anchors; } }
         public List<TagModel> Tags { get { return _tags; } }
 
@@ -47,6 +50,11 @@ namespace IWMS_LocationClient.src.common
         {
             _scenes.Clear();
             _scenes.AddRange(scenes);
+            _currentScene = null;
+            if (_scenes.Count > 0)
+            {
+                _currentScene = _scenes.ElementAt(0);
+            }
         }
         public void SetAnchors(List<AnchorModel> anchors)
         {
@@ -57,6 +65,18 @@ namespace IWMS_LocationClient.src.common
         {
             _tags.Clear();
             _tags.AddRange(tags);
+        }
+
+        public TagModel GetTag(string sn)
+        {
+            for (int i = 0; i < _tags.Count; i++)
+            {
+                if (_tags.ElementAt(i).Sn.CompareTo(sn) == 0)
+                {
+                    return _tags.ElementAt(i);
+                }
+            }
+            return null;
         }
     }
 }

@@ -57,11 +57,10 @@ namespace IWMS_LocationServer.src.bll
             TagLocation tagLocation = null;
             if (LocationInfoParser.GetLocation(line, out tagLocation))
             {
-                foreach (KeyValuePair<string, Session> session in SessionManager.Instance.Sessions)
+                for (int i = 0; i < SessionManager.Instance.Sessions.Count; i++)
                 {
-                    session.Value.UdpSendLocation(tagLocation);
+                    SessionManager.Instance.Sessions.ElementAt(i).Value.UdpSendLocation(tagLocation);
                 }
-
             }
             if (MessageReceived != null)
             {

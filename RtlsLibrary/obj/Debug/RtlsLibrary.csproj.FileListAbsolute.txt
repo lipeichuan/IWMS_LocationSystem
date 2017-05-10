@@ -1,0 +1,17 @@
+D:\git\IWMS_LocationSystem\RtlsLibrary\bin\Debug\RtlsLibrary.dll.config
+D:\git\IWMS_LocationSystem\RtlsLibrary\bin\Debug\RtlsLibrary.dll
+D:\git\IWMS_LocationSystem\RtlsLibrary\bin\Debug\RtlsLibrary.pdb
+D:\git\IWMS_LocationSystem\RtlsLibrary\obj\Debug\src\ui\AnchorMarker.g.cs
+D:\git\IWMS_LocationSystem\RtlsLibrary\obj\Debug\src\ui\RtlsMap.g.cs
+D:\git\IWMS_LocationSystem\RtlsLibrary\obj\Debug\src\ui\TagMarker.g.cs
+D:\git\IWMS_LocationSystem\RtlsLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\git\IWMS_LocationSystem\RtlsLibrary\obj\Debug\RtlsLibrary_MarkupCompile.cache
+D:\git\IWMS_LocationSystem\RtlsLibrary\obj\Debug\RtlsLibrary_MarkupCompile.lref
+D:\git\IWMS_LocationSystem\RtlsLibrary\obj\Debug\src\ui\AnchorMarker.baml
+D:\git\IWMS_LocationSystem\RtlsLibrary\obj\Debug\src\ui\RtlsMap.baml
+D:\git\IWMS_LocationSystem\RtlsLibrary\obj\Debug\src\ui\TagMarker.baml
+D:\git\IWMS_LocationSystem\RtlsLibrary\obj\Debug\RtlsLibrary.g.resources
+D:\git\IWMS_LocationSystem\RtlsLibrary\obj\Debug\RtlsLibrary.Properties.Resources.resources
+D:\git\IWMS_LocationSystem\RtlsLibrary\obj\Debug\RtlsLibrary.csproj.GenerateResource.Cache
+D:\git\IWMS_LocationSystem\RtlsLibrary\obj\Debug\RtlsLibrary.dll
+D:\git\IWMS_LocationSystem\RtlsLibrary\obj\Debug\RtlsLibrary.pdb

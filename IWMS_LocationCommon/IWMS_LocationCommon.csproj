@@ -57,7 +57,7 @@
     <Compile Include="common\net\Decoder.cs" />
     <Compile Include="common\net\Encoder.cs" />
     <Compile Include="common\net\MsgFactory.cs" />
-    <Compile Include="common\net\MsgProcessor\IMsgProcessor.cs" />
+    <Compile Include="common\net\IMsgProcessor.cs" />
     <Compile Include="grpc\Protocol.cs" />
     <Compile Include="grpc\ProtocolGrpc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,0 +1,30 @@
+2017-05-09 14:32:29.1095|DEBUG|IWMS_LocationClient.src.bll.UdpClient|UdpClient thread running...
+2017-05-09 14:32:29.1915|DEBUG|IWMS_LocationClient.src.bll.UdpClient|VideoServer Udp Server started!
+2017-05-09 14:32:29.1915|DEBUG|IWMS_LocationClient.src.bll.UdpClient|begin receive...
+2017-05-09 14:32:29.2045|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Regist { "terminalType": "TERMINAL_TYPE_WINPC", "softwareVersion": "0.1.0.0" }
+2017-05-09 14:32:29.3045|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Regist response { "sessionId": "CC131387851492775313" }
+2017-05-09 14:32:29.3135|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetScenes { "dataType": "DATA_TYPE_SCENES" }
+2017-05-09 14:32:29.5795|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetScenes response
+2017-05-09 14:32:29.6035|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetAnchors { "dataType": "DATA_TYPE_ANCHORS" }
+2017-05-09 14:32:29.6195|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetAnchors response
+2017-05-09 14:32:29.6235|INFO|IWMS_LocationClient.src.bll.LocationClient|===> GetTags { "dataType": "DATA_TYPE_TAGS" }
+2017-05-09 14:32:29.6235|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== GetTags response
+2017-05-09 14:32:29.6385|INFO|IWMS_LocationClient.src.bll.LocationClient|===> Subscribe { "sessionId": "CC131387851492775313", "port": 50053 }
+2017-05-09 14:32:29.6385|INFO|IWMS_LocationClient.src.bll.LocationClient|<=== Subscribe response { }
+2017-05-09 14:32:37.4469|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "8000", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 14:32:38.3960|ERROR|IWMS_LocationClient.src.bll.UdpClient|Udp: Unprocessed Msg [Notify]
+2017-05-09 14:32:42.6152|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "8000", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 14:32:42.6242|ERROR|IWMS_LocationClient.src.bll.UdpClient|Udp: Unprocessed Msg [Notify]
+2017-05-09 14:32:52.6178|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "8000", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 14:32:52.6178|ERROR|IWMS_LocationClient.src.bll.UdpClient|Udp: Unprocessed Msg [Notify]
+2017-05-09 14:33:02.6264|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "8000", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 14:33:02.6264|ERROR|IWMS_LocationClient.src.bll.UdpClient|Udp: Unprocessed Msg [Notify]
+2017-05-09 14:33:12.6180|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "8000", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 14:33:12.6180|ERROR|IWMS_LocationClient.src.bll.UdpClient|Udp: Unprocessed Msg [Notify]
+2017-05-09 14:33:22.6205|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "8000", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 14:33:22.6205|ERROR|IWMS_LocationClient.src.bll.UdpClient|Udp: Unprocessed Msg [Notify]
+2017-05-09 14:33:32.6271|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "8000", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 14:33:32.6441|ERROR|IWMS_LocationClient.src.bll.UdpClient|Udp: Unprocessed Msg [Notify]
+2017-05-09 14:33:42.6327|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "8000", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }
+2017-05-09 14:33:42.6327|ERROR|IWMS_LocationClient.src.bll.UdpClient|Udp: Unprocessed Msg [Notify]
+2017-05-09 14:33:52.6152|INFO|IWMS_LocationClient.src.bll.UdpClient|<---: { "terminalId": "TerminalID", "msgId": "MSG_ID_NOTIFY", "data": { "subjectData": { "tagLocation": { "tagSn": "8000", "distanceData": [ { "anchorSn": "ANCHOR0001", "distance": 1 }, { "anchorSn": "ANCHOR0002", "distance": 1 }, { "anchorSn": "ANCHOR0003", "distance": 1 } ] } } } }

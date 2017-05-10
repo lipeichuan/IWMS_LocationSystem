@@ -11,7 +11,6 @@ using grpc.location;
 using System.Reflection;
 using System.Windows;
 using System.Windows.Threading;
-using IWMS_LocationCommon.common.net.MsgProcessor;
 
 namespace IWMS_LocationClient.src.bll
 {
@@ -199,7 +198,7 @@ namespace IWMS_LocationClient.src.bll
             foreach (Msg msg in msgs)
             {
                 _logger.Info("<---: " + msg.ToString());
-                IMsgProcessor processor = Assembly.GetExecutingAssembly().CreateInstance("IWMS_LocationCommon.common.net." + msg.MsgId.ToString() + "Processor") as IMsgProcessor;
+                IMsgProcessor processor = Assembly.GetExecutingAssembly().CreateInstance("IWMS_LocationClient.src.bll.MsgProcessor." + msg.MsgId.ToString() + "Processor") as IMsgProcessor;
                 if (processor != null)
                 {
                     Application.Current.Dispatcher.BeginInvoke(DispatcherPriority.Normal, (ThreadStart)delegate ()

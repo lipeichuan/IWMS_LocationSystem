@@ -39,7 +39,7 @@ namespace grpc.location {
             "U2Vzc2lvbkluZm8SEgoKc2Vzc2lvbl9pZBgBIAEoCSJnCgdTdWJqZWN0EhIK",
             "CnNlc3Npb25faWQYASABKAkSDgoGdGFnX3NuGAIgAygJEioKCWRhdGFfdHlw",
             "ZRgDIAEoDjIXLmdycGMubG9jYXRpb24uRGF0YVR5cGUSDAoEcG9ydBgEIAEo",
-            "ByIzCgxEaXN0YW5jZURhdGESEQoJYW5jaG9yX3NuGAEgASgJEhAKCGRpc3Rh",
+            "BSIzCgxEaXN0YW5jZURhdGESEQoJYW5jaG9yX3NuGAEgASgJEhAKCGRpc3Rh",
             "bmNlGAIgASgBIocBCgtUYWdMb2NhdGlvbhIOCgZ0YWdfc24YASABKAkSMgoN",
             "ZGlzdGFuY2VfZGF0YRgCIAMoCzIbLmdycGMubG9jYXRpb24uRGlzdGFuY2VE",
             "YXRhEhMKC2lzX2xvY2F0aW9uGAMgASgIEgkKAXgYBCABKAESCQoBeRgFIAEo",
@@ -1146,12 +1146,12 @@ namespace grpc.location {
 
     /// <summary>Field number for the "port" field.</summary>
     public const int PortFieldNumber = 4;
-    private uint port_;
+    private int port_;
     /// <summary>
     /// 接收订阅的端口
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public uint Port {
+    public int Port {
       get { return port_; }
       set {
         port_ = value;
@@ -1205,8 +1205,8 @@ namespace grpc.location {
         output.WriteEnum((int) DataType);
       }
       if (Port != 0) {
-        output.WriteRawTag(37);
-        output.WriteFixed32(Port);
+        output.WriteRawTag(32);
+        output.WriteInt32(Port);
       }
     }
 
@@ -1221,7 +1221,7 @@ namespace grpc.location {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) DataType);
       }
       if (Port != 0) {
-        size += 1 + 4;
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Port);
       }
       return size;
     }
@@ -1263,8 +1263,8 @@ namespace grpc.location {
             dataType_ = (global::grpc.location.DataType) input.ReadEnum();
             break;
           }
-          case 37: {
-            Port = input.ReadFixed32();
+          case 32: {
+            Port = input.ReadInt32();
             break;
           }
         }

@@ -15,14 +15,12 @@ namespace IWMS_LocationClient.src.bll
     public class Session : IDisposable
     {
         private Logger _logger = LogManager.GetCurrentClassLogger();
-        private string _sessionId;
         private LocationClient _client;
-        private LocationApi _api;
         private Timer _timer = null;
-        private MapView _mapView;
         private Thread _thread;
         private bool _isConnected = false;
         private bool _isDispose = false;
+        private MapView _mapView = null;
 
         public string ServerIp
         {
@@ -51,8 +49,8 @@ namespace IWMS_LocationClient.src.bll
 
         public Session(MapView mapView)
         {
-            Setup();
             _mapView = mapView;
+            Setup();
             _timer = new Timer(new TimerCallback(timer_tick), null, 0, 1000);
             _thread = new Thread(run);
         }
@@ -62,39 +60,49 @@ namespace IWMS_LocationClient.src.bll
             string ipaddr = string.Format("{0}:{1}", ServerIp, ServerPort);
             Channel channel = new Channel(ipaddr, ChannelCredentials.Insecure);
             _client = new LocationClient(new Location.LocationClient(channel));
-            _api = new LocationApi(_client);
         }
 
         private void loadData()
         {
-            Common.Instance.SetScenes(_api.GetScenes());
-            Common.Instance.SetAnchors(_api.GetAnchors());
-            Common.Instance.SetTags(_api.GetTags());
+            Common.Instance.SetScenes(_client.GetScenes());
+            Common.Instance.SetAnchors(_client.GetAnchors());
+            Common.Instance.SetTags(_client.GetTags());
         }
 
         private void resetMap()
         {
-            if (Application.Current != null)
+            if (Application.Current != null && Common.Instance.CurrentScene != null)
             {
                 Application.Current.Dispatcher.Invoke((Action)delegate
                 {
-                    _mapView.mapControl.SetScene(Common.Instance.Scenes.ElementAt(0));
+                    _mapView.mapControl.SetScene(Common.Instance.CurrentScene);
                     _mapView.mapControl.SetAnchors(Common.Instance.Anchors);
                     _mapView.mapControl.SetTags(Common.Instance.Tags);
                 });
             }
         }
+        private void doSubscribe()
+        {
+            _client.Subscribe();
+        }
+
+        private void doRegist()
+        {
+            bool ret = _client.Regist();
+            if (ret)
+            {
+                _isConnected = true;
+                loadData();
+                resetMap();
+                doSubscribe();
+            }
+        }
+
         private void run()
         {
             while (!_isDispose)
             {
-                bool ret = _client.Regist();
-                if (ret)
-                {
-                    _isConnected = true;
-                    loadData();
-                    resetMap();
-                }
+                doRegist();
 
                 while (_isConnected)
                 {
